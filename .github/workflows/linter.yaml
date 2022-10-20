@@ -14,8 +14,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - run: sudo snap install yq
-
       - name: Extract helm repos
         id: helm-repos
         run: |
