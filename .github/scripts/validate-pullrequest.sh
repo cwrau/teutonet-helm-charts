@@ -11,7 +11,7 @@ if [[ -z "$changed" ]]; then
   exit 0
 fi
 
-if [[ "$PR_TITLE" =~ chore(deps)* ]]; then
+if [[ "$PR_TITLE" =~ ^chore(deps)*$ ]]; then
   exit 0
 fi
 

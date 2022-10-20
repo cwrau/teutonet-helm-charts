@@ -3,7 +3,7 @@ name: Sync CODEOWNERS and Docs
 on:
   pull_request:
     branches:
-      - release-please--*
+      - release-please--**
 
 jobs:
   build:
