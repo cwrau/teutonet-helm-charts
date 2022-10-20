@@ -22,6 +22,7 @@ spec:
   {{- end }}
   values:
     installCRDs: true
+    installCRDs2: true
     {{- if .Values.global.imageRegistry }}
     image:
       repository: {{ printf "%s/jetstack/cert-manager-controller" $.Values.global.imageRegistry }}
