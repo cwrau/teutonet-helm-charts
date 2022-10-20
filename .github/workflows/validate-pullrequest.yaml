@@ -7,11 +7,10 @@ on:
       - edited
       - reopened
       - synchronize
-    branches-ignore:
-      - release-please--**
 
 jobs:
   validate:
+    if: ${{ !startsWith(github.head_ref, 'release-please--') }}
     runs-on: ubuntu-latest
     env:
       CT_TARGET_BRANCH: ${{ github.event.repository.default_branch }}
