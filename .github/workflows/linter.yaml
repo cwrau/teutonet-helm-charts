@@ -1,7 +1,9 @@
-name: Lint Code Base
+name: Lint Helm Charts
 
 on:
-  - pull_request
+  pull_request:
+    paths:
+      - charts/**
 
 jobs:
   build:
