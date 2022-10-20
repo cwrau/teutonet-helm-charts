@@ -51,5 +51,6 @@ jobs:
           token: ${{ secrets.ACTIONS_BOT_TOKEN }}
           release-type: helm
           monorepo-tags: true
+          separate-pull-requests: true
           package-name: ${{ matrix.chart }}
           command: release-pr
