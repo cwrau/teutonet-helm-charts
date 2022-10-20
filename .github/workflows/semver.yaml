@@ -48,7 +48,7 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         with:
           path: charts/${{ matrix.chart }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.ACTIONS_BOT_TOKEN }}
           release-type: helm
           monorepo-tags: true
           package-name: ${{ matrix.chart }}

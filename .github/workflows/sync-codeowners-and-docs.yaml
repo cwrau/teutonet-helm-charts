@@ -1,18 +1,9 @@
 name: Sync CODEOWNERS and Docs
 
 on:
-  push:
+  pull_request:
     branches:
-      - main
-    paths:
-      - charts/*/README.md.gotmpl
-      - charts/*/README.md
-      - charts/*/values.schema.json
-      - charts/*/Chart.yaml
-      - .github/scripts/sync-codeowners.sh
-      - .github/workflows/sync-codeowners-and-docs.yaml
-      - .github/CODEOWNERS
-      - .github/json-schema-to-md.yaml
+      - release-please--*
 
 jobs:
   build:
@@ -34,8 +25,7 @@ jobs:
       - uses: EndBug/add-and-commit@v9
         with:
           message: "chore: Update 'CODEOWNERS'"
-          committer_name: github-actions[bot]
-          committer_email: github-actions[bot]@users.noreply.github.com
+          default_author: github_actions
 
       - name: generate values.md
         run: |
@@ -49,6 +39,5 @@ jobs:
       - uses: EndBug/add-and-commit@v9
         with:
           message: "chore: Update 'README.md's"
-          committer_name: github-actions[bot]
-          committer_email: github-actions[bot]@users.noreply.github.com
+          default_author: github_actions
 
