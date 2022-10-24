@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/cwrau/teutonet-helm-charts/compare/base-cluster-1.0.0...base-cluster-v1.1.0) (2022-10-24)
+
+
+### Features
+
+* **base-cluster:** such wow, much feature ([6ffb62e](https://github.com/cwrau/teutonet-helm-charts/commit/6ffb62eee2ade7a042c6ccd4c997b5b0c661bde1))
+
 ## 1.0.0 (2022-10-20)
 
 
