@@ -14,5 +14,17 @@
       "automerge": true
     }
   ],
-  "separateMinorPatch": true
+  "separateMinorPatch": true,
+  "regexManagers": [
+    {
+      "fileMatch": [
+        ".yaml$"
+      ],
+      "matchStrings": [
+        "spec:\\s+chart:\\s+spec:\\s+chart: (?<depName>\\S+)\\s+version: (?<currentValue>\\S+)\\s"
+      ],
+      "versioningTemplate": "helm",
+      "datasourceTemplate": "helm"
+    }
+  ]
 }
