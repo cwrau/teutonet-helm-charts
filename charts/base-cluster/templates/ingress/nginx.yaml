@@ -9,11 +9,11 @@ spec:
   chart:
     spec:
       chart: ingress-nginx
+      version: 4.x.x
       sourceRef:
         kind: HelmRepository
         name: nginx
         namespace: {{ .Release.Namespace }}
-      version: 4.x.x
   interval: 1m
   {{- if .Values.monitoring.prometheus.enabled }}
   dependsOn:

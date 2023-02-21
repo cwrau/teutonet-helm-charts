@@ -11,11 +11,11 @@ spec:
   chart:
     spec:
       chart: nfs-server-provisioner
+      version: 1.4.0
       sourceRef:
         kind: HelmRepository
         name: nfs-server-provisioner
         namespace: {{ .Release.Namespace }}
-      version: 1.4.0
   interval: 1m
   values:
     storageClass:

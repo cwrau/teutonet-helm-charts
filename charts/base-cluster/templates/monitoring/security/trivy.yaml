@@ -11,11 +11,11 @@ spec:
   chart:
     spec:
       chart: trivy-operator
+      version: 0.x.x
       sourceRef:
         kind: HelmRepository
         name: trivy
         namespace: {{ .Release.Namespace }}
-      version: 0.x.x
   interval: 1m
   {{- if .Values.monitoring.prometheus.enabled }}
   dependsOn:

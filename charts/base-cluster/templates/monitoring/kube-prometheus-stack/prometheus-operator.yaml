@@ -11,11 +11,11 @@ spec:
   chart:
     spec:
       chart: kube-prometheus-stack
+      version: 45.x.x
       sourceRef:
         kind: HelmRepository
         name: prometheus
         namespace: {{ .Release.Namespace }}
-      version: 45.x.x
   interval: 1m
   install:
     timeout: 20m0s
@@ -56,11 +56,11 @@ spec:
   chart:
     spec:
       chart: oauth2-proxy
+      version: 3.x.x
       sourceRef:
         kind: HelmRepository
         name: bitnami
         namespace: {{ $.Release.Namespace }}
-      version: 3.x.x
   interval: 1m
   values:
     redis:

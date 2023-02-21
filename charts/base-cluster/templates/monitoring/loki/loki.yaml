@@ -11,11 +11,11 @@ spec:
   chart:
     spec:
       chart: loki-stack
+      version: 2.x.x
       sourceRef:
         kind: HelmRepository
         name: grafana
         namespace: {{ .Release.Namespace }}
-      version: 2.x.x
   interval: 1m
   install:
     timeout: 10m0s
