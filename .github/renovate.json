@@ -18,11 +18,13 @@
   "regexManagers": [
     {
       "fileMatch": [
-        ".yaml$"
+        "^values.yaml$"
       ],
       "matchStrings": [
-        "spec:\\s+chart:\\s+spec:\\s+chart: (?<depName>\\S+)\\s+version: (?<currentValue>\\S+)\\s"
+        " {4}\\S+:\\n {6}url: (?<registryUrl>\\S+)\\n {6}charts:(?:\\s+(\\S+): ([0-9.x]+)\\s)+",
+        "^ {8}(?<depName>\\S+): (?<currentValue>\\S+)$"
       ],
+      "matchStringsStrategy": "recursive",
       "versioningTemplate": "helm",
       "datasourceTemplate": "helm"
     }
