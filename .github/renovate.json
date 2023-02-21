@@ -21,8 +21,8 @@
         "(^|/)values\\.yaml$"
       ],
       "matchStrings": [
-        " {4}\\S+:\\n {6}url: (?<registryUrl>\\S+)\\n {6}charts:(?:\\s+(\\S+): ([0-9.x]+)\\s)+",
-        "^ {8}(?<depName>\\S+): (?<currentValue>\\S+)$"
+        " {4}\\S+:\\n {6}url: (?<registryUrl>\\S+)\\n {6}charts:(?:\\s+\\S+: [0-9.x]+\\s)+",
+        " {8}(?<depName>\\S+): (?<currentValue>\\S+)\\s"
       ],
       "matchStringsStrategy": "recursive",
       "versioningTemplate": "helm",
