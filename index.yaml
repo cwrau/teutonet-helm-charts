@@ -282,6 +282,33 @@ entries:
     urls:
     - https://github.com/teutonet/teutonet-helm-charts/releases/download/base-cluster-0.1.0/base-cluster-0.1.0.tgz
     version: 0.1.0
+  stellio-context-broker:
+  - annotations:
+      artifacthub.io/images: |
+        - image: docker.io/confluentinc/cp-kafka:7.3.1
+        - image: docker.io/stellio/stellio-api-gateway:2.1.0
+        - image: docker.io/stellio/stellio-search-service:2.1.0
+        - image: docker.io/stellio/stellio-subscription-service:2.1.0
+        - image: docker.io/stellio/stellio-timescale-postgis:14-2.9.1-3.3
+    apiVersion: v2
+    appVersion: 2.1.0
+    created: "2023-05-01T01:25:38.622960261Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.2.4
+    description: An NGSI-LD compliant context broker
+    digest: 57a8f28eb7524c27088bf0ebd92a2ebfef0bfcaec40df1cba7a8ce76048480a9
+    maintainers:
+    - email: cwr@teuto.net
+      name: cwrau
+    - email: oc@teuto.net
+      name: ocaner-biz
+    name: stellio-context-broker
+    type: application
+    urls:
+    - https://github.com/cwrau/teutonet-helm-charts/releases/download/stellio-context-broker-0.1.0/stellio-context-broker-0.1.0.tgz
+    version: 0.1.0
   t8s-cluster:
   - annotations:
       artifacthub.io/images: |
@@ -353,4 +380,4 @@ entries:
     urls:
     - https://github.com/cwrau/teutonet-helm-charts/releases/download/t8s-cluster-0.0.1/t8s-cluster-0.0.1.tgz
     version: 0.0.1
-generated: "2023-04-29T01:21:34.75924788Z"
+generated: "2023-05-01T01:25:38.622986252Z"
