@@ -28,7 +28,7 @@ annotations:
     - image: docker.io/curlimages/curl:7.85.0
     - image: docker.io/fluxcd/flux-cli:v0.41.2
     - image: docker.io/grafana/grafana-image-renderer:latest
-    - image: docker.io/grafana/grafana:9.4.7
+    - image: docker.io/grafana/grafana:9.5.1
     - image: docker.io/grafana/promtail:2.7.4
     - image: docker.io/vladgh/gpg@sha256:8514acc9c94607895e3dea724bd85d885252666212567f6632d2654580539ed3
     - image: ghcr.io/aquasecurity/trivy-operator:0.13.2
