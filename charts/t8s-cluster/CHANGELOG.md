@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/cwrau/teutonet-helm-charts/compare/t8s-cluster-1.1.0...t8s-cluster-v1.1.1) (2023-05-27)
+
+
+### Miscellaneous Chores
+
+* **t8s-cluster/artifacthub-images:** Update images in 'Chart.yaml' ([#28](https://github.com/cwrau/teutonet-helm-charts/issues/28)) ([a01fada](https://github.com/cwrau/teutonet-helm-charts/commit/a01fada6816e7e78048d723adc83a0f2c0e4220c))
+
 ## [1.1.0](https://github.com/teutonet/teutonet-helm-charts/compare/t8s-cluster-1.0.0...t8s-cluster-v1.1.0) (2023-04-24)
 
 
