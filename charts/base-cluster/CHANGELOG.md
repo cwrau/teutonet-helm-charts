@@ -1,5 +1,20 @@
 # Changelog
 
+## [4.3.3](https://github.com/cwrau/teutonet-helm-charts/compare/base-cluster-4.3.2...base-cluster-v4.3.3) (2023-05-27)
+
+
+### Miscellaneous Chores
+
+* **base-cluster/artifacthub-images:** Update images in 'Chart.yaml' ([#17](https://github.com/cwrau/teutonet-helm-charts/issues/17)) ([044b958](https://github.com/cwrau/teutonet-helm-charts/commit/044b9584ce59ed3aefe33c171112db847a55b358))
+* **base-cluster/artifacthub-images:** Update images in 'Chart.yaml' ([#20](https://github.com/cwrau/teutonet-helm-charts/issues/20)) ([af37062](https://github.com/cwrau/teutonet-helm-charts/commit/af3706200655b35762a81d48018c49498a388bf3))
+* **base-cluster/artifacthub-images:** Update images in 'Chart.yaml' ([#21](https://github.com/cwrau/teutonet-helm-charts/issues/21)) ([8358f92](https://github.com/cwrau/teutonet-helm-charts/commit/8358f9250075d9791fb119718e02a51e6112efc6))
+* **base-cluster/artifacthub-images:** Update images in 'Chart.yaml' ([#22](https://github.com/cwrau/teutonet-helm-charts/issues/22)) ([23c82dc](https://github.com/cwrau/teutonet-helm-charts/commit/23c82dc71cc5449e892852bdf51f9866124ec192))
+* **base-cluster/artifacthub-images:** Update images in 'Chart.yaml' ([#23](https://github.com/cwrau/teutonet-helm-charts/issues/23)) ([66e9d7e](https://github.com/cwrau/teutonet-helm-charts/commit/66e9d7e76864cd6550aef557f35f03c19ee55906))
+* **base-cluster/artifacthub-images:** Update images in 'Chart.yaml' ([#24](https://github.com/cwrau/teutonet-helm-charts/issues/24)) ([ac56f91](https://github.com/cwrau/teutonet-helm-charts/commit/ac56f9140206a7cf82495f39583aed84b778b796))
+* **base-cluster/artifacthub-images:** Update images in 'Chart.yaml' ([#25](https://github.com/cwrau/teutonet-helm-charts/issues/25)) ([7807149](https://github.com/cwrau/teutonet-helm-charts/commit/780714900adb53c5c91dcdf7b254867436cb2826))
+* **base-cluster/artifacthub-images:** Update images in 'Chart.yaml' ([#26](https://github.com/cwrau/teutonet-helm-charts/issues/26)) ([c932ca7](https://github.com/cwrau/teutonet-helm-charts/commit/c932ca7736f3d15becdc141e8da4c3cc1e7aa1ac))
+* **base-cluster/artifacthub-images:** Update images in 'Chart.yaml' ([#27](https://github.com/cwrau/teutonet-helm-charts/issues/27)) ([3c5a138](https://github.com/cwrau/teutonet-helm-charts/commit/3c5a138d5c266850fee65e35577e4f8c1217558c))
+
 ## [4.3.1](https://github.com/teutonet/teutonet-helm-charts/compare/base-cluster-4.3.0...base-cluster-v4.3.1) (2023-04-28)
 
 
