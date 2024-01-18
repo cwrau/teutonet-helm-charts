@@ -8,6 +8,7 @@
   "semanticCommitScope": "{{parentDir}}/dependencies",
   "additionalBranchPrefix": "{{parentDir}}-",
   "separateMinorPatch": true,
+  "forkProcessing": "enabled",
   "automerge": true,
   "customManagers": [
     {
