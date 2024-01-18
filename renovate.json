@@ -41,7 +41,7 @@
   ],
   "hostRules": [
     {
-      "matchHost": "gitlab.teuto.net",
+      "matchHost": "https://gitlab.teuto.net",
       "username": "github-renovate",
       "hostType": "gitlab",
       "encrypted": {
