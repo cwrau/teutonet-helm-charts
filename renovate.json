@@ -50,8 +50,24 @@
       }
     },
     {
-      "matchHost": "https://registry-gitlab.teuto.net/4teuto/dev/teuto-portal/teuto-portal-k8s-worker/teuto-portal-k8s-worker",
+      "matchHost": "registry-gitlab.teuto.net",
       "hostType": "docker",
+      "username": "github-renovate",
+      "abortOnError": true,
+      "encrypted": {
+        "password": "wcFMA/xDdHCJBTolAQ//TSGDEipQ6PBP7WtA/7mNozE06DHsHvyXJ5VWBV1ZHqO50X5MbyaNSPPD0Gen+s3Z8vAITm9DcVDUDBXmHzZnXlZYrueCeZNJ0mttYkTFgmts7+fLMhFg4cJDf96CHNNjWNeyZnb6JvynuQPMw25kaSbhD1n3tleIPe9np08cIIYOkxHCEOI7Aq8z6n/LlIjY66V6KaelcO2cBK8kdbQBGiYurjpv85vqdMUoEvBNRvPf1+7J4ALXlBs5IAug88KLAXY0M/cSOjYbcI174faQCZNZI0EMFvaS5a2X176gqEECV72AeuT6FVX/a+b0wOSao3b5WvTYQaou6kwGM7BRGOOSXcTLYyknvG5sMdLaBPwwn7IHslp7CJruCzeR8JhG1sNOas7lllGYMhONOAR8iGKw/35QpTSeWTPKwXlDu5Oc2fIx1Tjj0Mphfnb/1jV/HkBgJo8JxwVbrrZAdb2SK3CFcl2Z/2hFuLV2TsQKEReOp//OWrY+tUF7tTZEkvXaYOpuc0DOxZapR6BZ7u5cGtXEeEJnBzc/9aoekcZpOHnx51NG6fMcqWbcRc+QtYCXNXC03dwGWjdXS+pJtP/BUmr6KLVNv/pB8qTcFfBMbEiSnEtrVcYFW7cNHpY3QQhtYtSGl4Nf0EqASdyCRtzEoLJkxgbTfnVy0g6gPsugF/rSdAE3awUChNCmsYCgPrI5JS3IOUaTg+/wAnsEBUOwgHN4ttKSlSSEcLdkAiUfpNrf13wclwxlMz+S7dUebk8OHmiWCW4IAwrAcJIPyaT4eof/qIhpaCLeitc7SuS/83VfV4BNRSF8t44yCCdCqMt49fGci5As"
+      }
+    },
+    {
+      "matchHost": "gitlab.teuto.net",
+      "username": "github-renovate",
+      "abortOnError": true,
+      "encrypted": {
+        "password": "wcFMA/xDdHCJBTolAQ//TSGDEipQ6PBP7WtA/7mNozE06DHsHvyXJ5VWBV1ZHqO50X5MbyaNSPPD0Gen+s3Z8vAITm9DcVDUDBXmHzZnXlZYrueCeZNJ0mttYkTFgmts7+fLMhFg4cJDf96CHNNjWNeyZnb6JvynuQPMw25kaSbhD1n3tleIPe9np08cIIYOkxHCEOI7Aq8z6n/LlIjY66V6KaelcO2cBK8kdbQBGiYurjpv85vqdMUoEvBNRvPf1+7J4ALXlBs5IAug88KLAXY0M/cSOjYbcI174faQCZNZI0EMFvaS5a2X176gqEECV72AeuT6FVX/a+b0wOSao3b5WvTYQaou6kwGM7BRGOOSXcTLYyknvG5sMdLaBPwwn7IHslp7CJruCzeR8JhG1sNOas7lllGYMhONOAR8iGKw/35QpTSeWTPKwXlDu5Oc2fIx1Tjj0Mphfnb/1jV/HkBgJo8JxwVbrrZAdb2SK3CFcl2Z/2hFuLV2TsQKEReOp//OWrY+tUF7tTZEkvXaYOpuc0DOxZapR6BZ7u5cGtXEeEJnBzc/9aoekcZpOHnx51NG6fMcqWbcRc+QtYCXNXC03dwGWjdXS+pJtP/BUmr6KLVNv/pB8qTcFfBMbEiSnEtrVcYFW7cNHpY3QQhtYtSGl4Nf0EqASdyCRtzEoLJkxgbTfnVy0g6gPsugF/rSdAE3awUChNCmsYCgPrI5JS3IOUaTg+/wAnsEBUOwgHN4ttKSlSSEcLdkAiUfpNrf13wclwxlMz+S7dUebk8OHmiWCW4IAwrAcJIPyaT4eof/qIhpaCLeitc7SuS/83VfV4BNRSF8t44yCCdCqMt49fGci5As"
+      }
+    },
+    {
+      "matchHost": "registry-gitlab.teuto.net",
       "username": "github-renovate",
       "abortOnError": true,
       "encrypted": {
