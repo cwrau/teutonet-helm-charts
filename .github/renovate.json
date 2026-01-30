@@ -12,6 +12,7 @@
   "automerge": true,
   "prHourlyLimit": 50,
   "prConcurrentLimit": 20,
+  "forkProcessing": true,
   "labels": [
     "dependencies"
   ],
